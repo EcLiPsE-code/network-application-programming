@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -22,7 +19,9 @@
     <select />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="Lab_1" targetName="Lab_1" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -30,7 +29,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a764c1b4-4e58-4a6b-ac0b-574d4bcec3d8" name="Default Changelist" comment="" />
+    <list default="true" id="dbc16baf-1a19-4806-a470-16b22fe3336d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,25 +38,11 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Enum" />
-      </list>
-    </option>
-  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="E:\InteliJ Idea\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1iTJOjJvDbDi3newONzyilXKQqP" />
+  <component name="ProjectId" id="1ikKEjcKgytNhf7AjeK2v3Hk4Ce" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -66,32 +51,37 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Trash/PSP" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Learning\network-application-programming\Lab_1\src" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="Lab_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab_1" TARGET_NAME="Lab_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab_1" RUN_TARGET_NAME="Lab_1">
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a764c1b4-4e58-4a6b-ac0b-574d4bcec3d8" name="Default Changelist" comment="" />
-      <created>1601925620047</created>
+      <changelist id="dbc16baf-1a19-4806-a470-16b22fe3336d" name="Default Changelist" comment="" />
+      <created>1602446040637</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601925620047</updated>
-      <workItem from="1601925621387" duration="3615000" />
-      <workItem from="1602141053534" duration="17000" />
+      <updated>1602446040637</updated>
+      <workItem from="1602446044046" duration="1940000" />
+      <workItem from="1602448518552" duration="8994000" />
+      <workItem from="1602530820223" duration="128000" />
     </task>
     <servers />
   </component>
@@ -111,9 +101,37 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="444" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1601927716517">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602452106475">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="444" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601927716517" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602452106475" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602521023822">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602521023822" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1602530993077">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602530993077" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1602529753870">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602529753870" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1602529753870">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602529753870" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1602529753870">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602529753870" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1602529753870">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602529753870" />
+    <state x="408" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1602451952531">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="408" y="148" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1602451952531" />
   </component>
 </project>

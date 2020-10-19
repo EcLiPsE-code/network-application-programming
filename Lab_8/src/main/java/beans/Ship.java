@@ -46,7 +46,9 @@ public class Ship extends Bean implements Cloneable, Serializable {
 
     @Override
     public String toString() {
-        return getClass().getName() + "[shipName: " + shipName +
+        return getClass().getName() + "[" +
+                "id: " + super.toString() +
+                "shipName: " + shipName +
                 ",typeShip: " + typeShip +
                 ",displacment: " + displacement +
                 ",country: " + country + "]";

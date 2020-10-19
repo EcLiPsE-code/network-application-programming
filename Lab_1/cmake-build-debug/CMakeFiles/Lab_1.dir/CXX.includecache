@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/Learning/network-application-programming/Lab_1/main.cpp
+src/srvr/SServer.h
+F:/Learning/network-application-programming/Lab_1/src/srvr/SServer.h
+
+F:/Learning/network-application-programming/Lab_1/src/srvr/SServer.h
+iostream
+-
+winsock2.h
+-
+windows.h
+-
+winsock.h
+-
+
