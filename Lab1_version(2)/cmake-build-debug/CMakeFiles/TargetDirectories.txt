@@ -1,0 +1,4 @@
+E:/GGTU/network-application-programming/Lab1_version(2)/cmake-build-debug/CMakeFiles/server.dir
+E:/GGTU/network-application-programming/Lab1_version(2)/cmake-build-debug/CMakeFiles/client.dir
+E:/GGTU/network-application-programming/Lab1_version(2)/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/GGTU/network-application-programming/Lab1_version(2)/cmake-build-debug/CMakeFiles/rebuild_cache.dir

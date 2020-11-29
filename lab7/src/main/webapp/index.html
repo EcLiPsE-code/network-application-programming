@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket lab</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="title">Password check with WebSockets</div>
+    <div class="input-form">
+        <label for="pass">
+            <span class="text-input">Введите пароль для проверки: </span>
+            <input type="text" name="password" id="pass" type="password">
+        </label>
+        <button class="btn" onclick="checkPass()">Отправить</button>
+    </div>
+    <div class="console">
+        <div class="console-label">Результат проверки пароля на корректность (true-корректный, false-некорректный)</div>
+        <div id="server-msg" class="content">
+
+        </div>
+    </div>
+    <script src="main.js" ></script>
+</body>
+</html>

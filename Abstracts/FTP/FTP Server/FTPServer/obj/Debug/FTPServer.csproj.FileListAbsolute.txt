@@ -1,0 +1,14 @@
+E:\GGTU\network-application-programming\FTP Server\FTPServer\bin\Debug\FTPServer.exe.config
+E:\GGTU\network-application-programming\FTP Server\FTPServer\bin\Debug\FTPServer.exe
+E:\GGTU\network-application-programming\FTP Server\FTPServer\bin\Debug\FTPServer.pdb
+E:\GGTU\network-application-programming\FTP Server\FTPServer\obj\Debug\FTPServer.csprojAssemblyReference.cache
+E:\GGTU\network-application-programming\FTP Server\FTPServer\obj\Debug\FTPServer.csproj.CoreCompileInputs.cache
+E:\GGTU\network-application-programming\FTP Server\FTPServer\obj\Debug\FTPServer.exe
+E:\GGTU\network-application-programming\FTP Server\FTPServer\obj\Debug\FTPServer.pdb
+E:\GGTU\network-application-programming\Abstracts\FTP\FTP Server\FTPServer\bin\Debug\FTPServer.exe.config
+E:\GGTU\network-application-programming\Abstracts\FTP\FTP Server\FTPServer\bin\Debug\FTPServer.exe
+E:\GGTU\network-application-programming\Abstracts\FTP\FTP Server\FTPServer\bin\Debug\FTPServer.pdb
+E:\GGTU\network-application-programming\Abstracts\FTP\FTP Server\FTPServer\obj\Debug\FTPServer.csprojAssemblyReference.cache
+E:\GGTU\network-application-programming\Abstracts\FTP\FTP Server\FTPServer\obj\Debug\FTPServer.csproj.CoreCompileInputs.cache
+E:\GGTU\network-application-programming\Abstracts\FTP\FTP Server\FTPServer\obj\Debug\FTPServer.exe
+E:\GGTU\network-application-programming\Abstracts\FTP\FTP Server\FTPServer\obj\Debug\FTPServer.pdb

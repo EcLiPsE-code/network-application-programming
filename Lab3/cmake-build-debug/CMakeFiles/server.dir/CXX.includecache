@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/GGTU/network-application-programming/Lab3/server.cpp
+iostream
+E:/GGTU/network-application-programming/Lab3/iostream
+cstdio
+-
+winsock2.h
+E:/GGTU/network-application-programming/Lab3/winsock2.h
+windows.h
+E:/GGTU/network-application-programming/Lab3/windows.h
+cmath
+-
+

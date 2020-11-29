@@ -1,0 +1,50 @@
+* {
+  font-family: sans-serif;
+  margin: 0
+}
+
+.title {
+  text-align: center;
+  font-size: 3em;
+  padding: 1.5rem
+}
+
+.input-form {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3em;
+  padding: 4rem
+}
+
+.btn {
+  cursor: pointer
+}
+
+.console {
+  display: flex;
+  background: black;
+  justify-content: space-between;
+  min-height: 500px;
+  width: 100%;
+  font-family: monospace;
+  color: white;
+}
+
+.console .window {
+  flex-grow: 1;
+  flex-direction: column;
+  border-right: solid white;
+}
+
+.console .content {
+  padding: 1rem
+}
+
+.console .console-title {
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 0.4rem;
+  border-bottom: white solid;
+}

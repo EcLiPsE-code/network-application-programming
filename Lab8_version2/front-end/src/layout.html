@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ship Service</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/table-page.css">
+    <link rel="stylesheet" href="css/modalWindow.css">
+</head>
+<body>
+
+<div class="modal-overlay" id="modal-overlay"></div>
+<div class="modal" id="modal" aria-hidden="true" aria-labelledby="modalTitle" aria-describedby="modalDescription" role="dialog">
+    <button class="close-button" id="close-button" title="Закрыть модальное окно">Закрыть</button>
+    <div class="modal-guts" role="document">
+        <h1>Заголовок</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita corrupti laudantium aperiam, doloremque explicabo ipsum earum dicta saepe delectus totam vitae ipsam doloribus et obcaecati facilis eius assumenda, cumque.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita corrupti laudantium aperiam, doloremque explicabo ipsum earum dicta saepe delectus totam vitae ipsam doloribus et obcaecati facilis eius assumenda, cumque.</p>
+
+    </div>
+</div>
+
+<div class="page">
+    <header>
+        <div class="description">
+            Web site "Ship Service"
+        </div>
+    </header>
+    <div class="content">
+        <div class="main-content" id="root">
+            <div class="table-page">
+                <div class="table-с">
+
+                </div>
+            </div>
+            <div class="add-btn">
+                <input type="button" value="Add" name="btn-add" onclick="addedShip()">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="current-date">
+            <div class="label">
+                Current date:
+            </div>
+            &nbsp;
+            <div class="date" id="current-date">
+
+            </div>
+        </div>
+        <div class="admin-info">
+            <div class="label">
+                The completed task:
+            </div>
+            &nbsp;
+            <div class="author-info">
+                &copy;&nbsp;Solodkov M.A
+            </div>
+        </div>
+        <div class="task-version">
+            <div class="label">
+                Version task:
+            </div>
+            &nbsp;
+            <div class="version">
+                1.0
+            </div>
+        </div>
+    </footer>
+</div>
+<script src = "js/utils.js"></script>
+<script src="js/layout.js"></script>
+</body>
+</html>

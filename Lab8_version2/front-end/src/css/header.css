@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 15vh;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: 0 0.2rem 0.2rem lightgray;
+    z-index: 1;
+}
+.description, .info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info{
+    width: 5vw;
+    height: 15vh;
+    justify-content: center;
+    align-content: center;
+}
+.description{
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    font-size: 1.4em;
+    font-family: "GT Walsheim Pro", sans-serif;
+}
+.info:hover{
+    cursor: pointer;
+}
+.info:active{
+    background-color: #fff;
+    color: #30419b;
+    border: #30419b solid 1px;
+    transition-duration: .4s;
+}
+
+

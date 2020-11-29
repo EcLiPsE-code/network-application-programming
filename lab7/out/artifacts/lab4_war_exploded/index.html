@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket lab</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="title">Slau calculator with WebSocket</div>
+    <div class="input-form">
+        <label for="equationCount">
+            <span class="text-input">Введите количество уравнений: </span>
+            <input type="text" name="equationCount">
+        </label>
+        <button class="btn" onclick="calcSlau()">Send</button>
+    </div>
+    <div class="console">
+        <div class="window">
+            <div class="console-title">Сообщения для пользователя</div>
+            <div id="personal-msg" class="content"></div>
+        </div>
+        <div class="window">
+            <div class="console-title">Общие сообщения</div>
+            <div id="server-msg" class="content"></div>
+        </div>
+    </div>
+    <script src="main.js" ></script>
+</body>
+</html>
