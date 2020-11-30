@@ -1,3 +1,4 @@
+let current_id = undefined
 /**
  * show content table
  */
@@ -27,29 +28,63 @@ function removeShip(id) {
  *
  */
 function addedShip(){
+    let id = parseInt(document.querySelector('.table_blur').lastElementChild.id)
+    id = isNaN(id)? 0 : id + 1
+    let ship = {
+        'id' : id,
+        'displacement' : parseFloat(document.getElementById('d_ship').value),
+        'country' : document.getElementById('country-select').value.toString(),
+        'name' : document.getElementById('n-input').value.toString(),
+        'typeShip' : document.getElementById('tsh').value.toString()
+    }
+    fetch(`https://lab8-psp.firebaseio.com/ships/ship${id}.json`,{
+        method: 'POST',
+        body: JSON.stringify(ship)
+    })
+        .then(() => console.log("ship was successfully added"))
+        .then(() => document.querySelector('.table_c').innerHTML = "")
+        .then(() => showShips())
+        .catch(error => console.log(error))
+}
 
+function __innerUpdate(id){
+    let tr = document.getElementById(id)
+    let country = tr.querySelector('.country').innerHTML
+    let displacement = tr.querySelector('.displacement').innerHTML
+    let id_ship = tr.querySelector('.id').innerHTML
+    let name = tr.querySelector('.name').innerHTML
+    let typeShip = tr.querySelector('.typeShip').innerHTML
+
+    document.getElementById('d_ship').value = displacement
+    document.getElementById('country-select').value = country
+    document.getElementById('n-input').value = name
+    document.getElementById('tsh').value = typeShip
+
+    current_id = id_ship
 }
 
 /**
  *
  * @param id {number}
  */
-function updateShip(id){
-
+function updateShip(){
+    let ship = {
+        'id' : current_id,
+        'displacement' : parseFloat(document.getElementById('d_ship').value),
+        'country' : document.getElementById('country-select').value.toString(),
+        'name' : document.getElementById('n-input').value.toString(),
+        'typeShip' : document.getElementById('tsh').value.toString()
+    }
+    fetch(`https://lab8-psp.firebaseio.com/ships/ship${current_id}.json`,{
+        method: 'PUT',
+        headers:{
+            'Access-Control-Allow-Methods': 'GET,HEAD,POST'
+        },
+        body: JSON.stringify(ship)
+    })
+        .then(() => console.log("ship was successfully update"))
+        .then(() => document.querySelector('.table_c').innerHTML = "")
+        .then(() => showShips())
+        .catch(error => console.log(error))
 }
-
-let modal = document.querySelector("#modal"),
-    modalOverlay = document.querySelector("#modal-overlay"),
-    closeButton = document.querySelector("#close-button"),
-    openButton = document.querySelector("#open-button");
-
-closeButton.addEventListener("click", function() {
-    modal.classList.toggle("closed");
-    modalOverlay.classList.toggle("closed");
-});
-
-openButton.addEventListener("click", function() {
-    modal.classList.toggle("closed");
-    modalOverlay.classList.toggle("closed");
-});
 

@@ -6,9 +6,16 @@
     background-color: #f9f9f9;
     width: 100vw;
 }
+.add-content{
+    width: 80vw;
+    margin: 5vh auto;
+    background-color: #fff;
+    box-shadow: 1vh 2vh 3vh gray ;
+    border-radius: 5vh;
+}
 .main-content{
     min-height: calc(100vh - 40vh);
-    width: 90vw;
+    width: 80vw;
     margin: 5vh auto;
     background-color: #fff;
     box-shadow: 1vh 2vh 3vh gray ;
@@ -19,4 +26,50 @@
     margin-bottom: 1vh;
     margin-top: 1vh;
     justify-content: center;
+}
+
+
+.main-label{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    font-family: "GT Walsheim Pro", sans-serif;
+    justify-content: center;
+}
+.add-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.item-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70vw;
+    margin: 0 auto;
+}
+.item-displacement, .item-country, .item-name, .item-type-ship{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input[type='text']{
+    font-family: "GT Walsheim Pro", sans-serif;
+    font-size: 1rem;
+    padding: .3em;
+    margin-bottom: .1em;
+    margin-top: .2em;
+    border-radius: .1em;
+    min-width: 10vw;
+}
+.btn-add, .btn-update{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+select{
+    font-family: "GT Walsheim Pro", sans-serif;
+    font-size: 1.1em;
 }

@@ -34,7 +34,6 @@ function generateHeader(){
 function generateRowTable(object){
     let tr = generateElement('tr')
     tr.id = object.id
-
     for (let properties in object){
         let th = generateElement('th')
         th.innerText = object[properties]
@@ -57,7 +56,7 @@ function generateRowTable(object){
     btnUpdate.value = 'Update'
     btnUpdate.id = "open-button"
     btnUpdate.onclick = () => {
-        updateShip(tr.id)
+        __innerUpdate(tr.id)
     }
 
     let thBtnRem = generateElement('th')
@@ -84,7 +83,9 @@ function generateTable(response){
     table.appendChild(generateHeader())
 
     for (const object in response){
-        const tr = generateRowTable(response[object])
+        const obj = response[object]
+        const obj_id = Object.keys(obj)[0]
+        const tr = generateRowTable(obj[obj_id])
         table.appendChild(tr)
     }
 

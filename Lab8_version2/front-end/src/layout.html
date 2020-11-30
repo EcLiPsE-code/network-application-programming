@@ -8,21 +8,8 @@
     <link rel="stylesheet" href="css/content.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/table-page.css">
-    <link rel="stylesheet" href="css/modalWindow.css">
 </head>
 <body>
-
-<div class="modal-overlay" id="modal-overlay"></div>
-<div class="modal" id="modal" aria-hidden="true" aria-labelledby="modalTitle" aria-describedby="modalDescription" role="dialog">
-    <button class="close-button" id="close-button" title="Закрыть модальное окно">Закрыть</button>
-    <div class="modal-guts" role="document">
-        <h1>Заголовок</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita corrupti laudantium aperiam, doloremque explicabo ipsum earum dicta saepe delectus totam vitae ipsam doloribus et obcaecati facilis eius assumenda, cumque.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita corrupti laudantium aperiam, doloremque explicabo ipsum earum dicta saepe delectus totam vitae ipsam doloribus et obcaecati facilis eius assumenda, cumque.</p>
-
-    </div>
-</div>
-
 <div class="page">
     <header>
         <div class="description">
@@ -36,8 +23,62 @@
 
                 </div>
             </div>
-            <div class="add-btn">
-                <input type="button" value="Add" name="btn-add" onclick="addedShip()">
+        </div>
+        <div class="add-content">
+            <div class="item-wrapper">
+                <div class="main-label">
+                    <strong>Added and update data ships</strong>
+                </div>
+                <div class="item-displacement">
+                    <div class="label">
+                        Enter ship displacement:
+                    </div>
+                    &nbsp;
+                    <div class="displacement-input">
+                        <input type="text" class="input" id="d_ship">
+                    </div>
+                </div>
+                <div class="item-country">
+                    <div class="label">
+                        Select county-manufacturer ship:
+                    </div>
+                    &nbsp;
+                    <div class="country-input">
+                        <select id="country-select">
+                            <option value="usa">USA</option>
+                            <option value="russian">RUSSIAN</option>
+                            <option value="germany">GERMANY</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="item-name">
+                    <div class="label">
+                        Input name ship:
+                    </div>
+                    &nbsp;
+                    <div class="name-input">
+                        <input type="text" id="n-input">
+                    </div>
+                </div>
+                <div class="item-type-ship">
+                    <div class="label">
+                        Select type ship:
+                    </div>
+                    &nbsp;
+                    <div class="typeShip-input">
+                        <select name="typeShip" id="tsh">
+                            <option value="destroyer">DESTROYER</option>
+                            <option value="aircraft-carrier">AIRCRAFT CARRIER</option>
+                            <option value="battleship">BATTLESHIP</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-add">
+                <input type="button" value="ADD" onclick="addedShip()">
+            </div>
+            <div class="btn-update">
+                <input type="button" value="UPDATE" onclick="updateShip()">
             </div>
         </div>
     </div>
