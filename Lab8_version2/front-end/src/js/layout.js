@@ -75,11 +75,15 @@ function updateShip(){
         'name' : document.getElementById('n-input').value.toString(),
         'typeShip' : document.getElementById('tsh').value.toString()
     }
-    fetch(`https://lab8-psp.firebaseio.com/ships/ship${current_id}.json`,{
+    let find_id = 0
+    for (let i = 0; i < keysShips.length; i++){
+        if (current_id in keysShips[i]){
+            let obj = keysShips[i]
+            find_id = obj[current_id]
+        }
+    }
+    fetch(`https://lab8-psp.firebaseio.com/ships/ship${current_id}/${find_id}.json`,{
         method: 'PUT',
-        headers:{
-            'Access-Control-Allow-Methods': 'GET,HEAD,POST'
-        },
         body: JSON.stringify(ship)
     })
         .then(() => console.log("ship was successfully update"))

@@ -1,5 +1,5 @@
 const nameHeader = ['COUNTRY', 'DISPLACEMENT', 'ID', 'NAME', 'TYPE_SHIP']
-
+const keysShips = []
 /**
  * Create needed element DOM-tree
  * @param element {string}
@@ -85,6 +85,7 @@ function generateTable(response){
     for (const object in response){
         const obj = response[object]
         const obj_id = Object.keys(obj)[0]
+        keysShips.push({[`${obj[obj_id].id}`]: obj_id})
         const tr = generateRowTable(obj[obj_id])
         table.appendChild(tr)
     }
