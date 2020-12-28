@@ -1,6 +1,6 @@
 "use strict"
 
-const socket = new WebSocket('ws://localhost:8080/websocket');
+const socket = new WebSocket('ws://localhost:3443/websocket');
 const personalMsgDOM = document.getElementById('personal-msg');
 const serverMsgDOM = document.getElementById('server-msg');
 const passwordInputDOM = document.querySelector('input[name="password"]')

@@ -126,10 +126,9 @@ int main() {
 	                bytes_recv = recv(client_sockets[i], (char*)&s1, sizeof(double), 0);
 	                //cout << "new S = " << s1 << endl;
 	                s = s + s1;
-	                nclients--; // ��������� ������� �������� ��������
+	                nclients--;
 	                printf("-disconnect\n");
 	                {
-	                    // ��������� �����
 	                    close(client_sockets[i]);
 	                }
 		  }

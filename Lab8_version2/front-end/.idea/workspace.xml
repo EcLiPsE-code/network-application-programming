@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c39848d2-4645-4239-80c1-36d2e666a935" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7/lab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/lab4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7/src/main/webapp/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/src/main/webapp/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7/target/lab7-1.0-SNAPSHOT/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/target/lab7-1.0-SNAPSHOT/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,8 @@
       <updated>1606464309278</updated>
       <workItem from="1606464310407" duration="2182000" />
       <workItem from="1606468838274" duration="20934000" />
-      <workItem from="1606686841208" duration="12518000" />
+      <workItem from="1606686841208" duration="12639000" />
+      <workItem from="1606952623126" duration="93000" />
     </task>
     <servers />
   </component>

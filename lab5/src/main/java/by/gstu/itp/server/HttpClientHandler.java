@@ -18,7 +18,7 @@ public class HttpClientHandler implements Runnable {
         boolean flag = true;
         while(flag){
             try (HttpRequest in = new HttpRequest(clientSocket.getInputStream());
-                 HttpResponse out = new HttpResponse(clientSocket.getOutputStream())){
+                HttpResponse out = new HttpResponse(clientSocket.getOutputStream())){
                 switch (in.getUrlContextPath()) {
                     case "/":
                         String builder = "";
